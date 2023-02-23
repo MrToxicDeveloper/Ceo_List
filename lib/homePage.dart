@@ -38,7 +38,13 @@ class _HomePageState extends State<HomePage> {
     "assets/images/vpavic_171003_2029_0067.5.jpg",
     "assets/images/104891709-Bill_Gates_the_co-Founder.jpg",
     "assets/images/jeff-bezos-andrew-harrer_bloomberg-via-getty-images.jpg",
-    "assets/images/mukesh-ambani.jpg)",
+    "assets/images/mukesh-ambani.jpg",
+    "assets/images/1128955260.jpg.0.jpg",
+    "assets/images/adobeceo.jpg",
+    "assets/images/Daniel-for-website.jpg",
+    "assets/images/2015-597760harald-krueger1.jpg",
+    "assets/images/michael-dell-dell-technologies-world.jpg",
+    "assets/images/Bob_Swan_01.jpg"
   ];
 
   @override
@@ -52,7 +58,7 @@ class _HomePageState extends State<HomePage> {
           padding: const EdgeInsets.all(8.0),
           child: ListView.builder(
 
-            itemCount: 3,
+            itemCount: 10,
             itemBuilder: (context, index) => Ceo(index,CeoName[index],Company[index],Image[index]),
           ),
         ),
